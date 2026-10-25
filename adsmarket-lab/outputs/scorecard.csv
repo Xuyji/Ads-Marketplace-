@@ -1,0 +1,15 @@
+study,method,estimate,truth,error,recovers
+Reserve-price A/B: revenue lift,query-randomized,0.09497811420620406,0.04063997976307898,5.4338134443125075,False
+Reserve-price A/B: revenue lift,budget-randomized,0.04120206048966235,0.04063997976307898,0.05620807265833694,True
+Effect of winning on installs (all auctions),Naive won-vs-lost,0.281511354694126,0.06394786064671254,21.75634940474135,False
+Effect of winning on installs (all auctions),"AIPW, cross-fitted (DR)",0.12867086466718777,0.06394786064671254,6.472300402047523,False
+Effect of winning on installs (non-brand overlap),Naive won-vs-lost,0.04871422856740269,0.05038549002584303,-0.16712614584403346,True
+Effect of winning on installs (non-brand overlap),"AIPW, cross-fitted (DR)",0.04884045104287553,0.05038549002584303,-0.15450389829674976,True
+Own-brand incremental installs / impression,Last-tap attribution,0.3969486978875601,0.086140194310803,31.08085035767571,False
+Own-brand incremental installs / impression,Ghost-ads holdout,0.0845749353276376,0.086140194310803,-0.15652589831653962,True
+Geo launch: revenue lift (headline world),Naive pre/post (treated only),0.1907974697828385,0.08830906974401831,10.24884000388202,False
+Geo launch: revenue lift (headline world),Difference-in-differences (TWFE),0.12286670041599357,0.08830906974401831,3.455763067197526,False
+Geo launch: revenue lift (headline world),Synthetic control,0.12904196876833884,0.08830906974401831,4.0732899024320535,False
+Geo launch: mean over 8 simulated marketplaces,Naive pre/post (treated only),0.16889877165575312,0.0932376362011633,7.5661135454589825,False
+Geo launch: mean over 8 simulated marketplaces,Difference-in-differences (TWFE),0.08627118017258051,0.0932376362011633,-0.6966456028582785,True
+Geo launch: mean over 8 simulated marketplaces,Synthetic control,0.0859173755737393,0.0932376362011633,-0.7320260627423997,True
